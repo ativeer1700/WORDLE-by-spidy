@@ -1,0 +1,36 @@
+
+
+body {
+    background-color: rgb(44, 34, 34);
+    color: #e54649;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.txt {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #e54649;
+}
+
+.btn {
+    background-color: #e54649;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+
+
+        

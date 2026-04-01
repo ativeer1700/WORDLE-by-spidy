@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+    color: red;
+}
+
+hr{
+    width:500px;
+    color: red;
+}
+
+#title {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+
+}
+
+#board {
+    width: 350px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 2px solid rgb(115, 11, 11);
+    width : 60px;
+    height: 60px;
+    margin: 2.5px ;
+
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct{
+    background-color: rgb(37, 163, 2);
+    color: black;
+    border-color: black;
+}
+
+.present{
+    background-color: orange;
+    color:black;
+    border-color: black;
+}
+
+.absent{
+    background-color: grey;
+    color: black;
+    border-color: black;
+}
